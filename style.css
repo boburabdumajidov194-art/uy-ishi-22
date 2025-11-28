@@ -1,11 +1,126 @@
-.box{
+header{
+    width: 1440px;
+    height: 800px;
+    background-color: blanchedalmond;
+    position: relative;
+   
+}
+.header__logo{
+    width: 227px;
+    height: 24px;
+position: absolute;
+top: 18px;
+left: 55px;
+}
+.header__card{
+    display: flex;
+    gap: 50px;
+    margin-left: 1000px;
+}
+.header__cards{
+   font-size: 20px; 
+   margin-top: 23px;
+}
+
+.header__card1{
+    width: 400px;
+    height: 367px;
+    margin-left: 55px;
+    margin-top: 170px;
+}
+.header__text{
+    font-size: 50px;
+}
+.header__but{
     width: 200px;
-    height: 200px;
-    background-color: aqua;
-    margin: auto;
-    /* transform: rotate(45deg);
-    transform: rotateX(54deg);
-    transform: rotateY(60deg); */
-    transform: skew(20deg);
-    transform: scale(1.5);
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(1, 99, 68);
+}
+.header__card2{
+    width: 710px;
+    height: 694px;
+    background-image: url(./Rectangle\ 679.png);
+    background-repeat: no-repeat;
+    margin-left: 285px;
+    margin-top: 172px;
+  
+}
+form{
+    display: flex;
+    position: relative;
+}
+.header__logo1{
+    width: 160px;
+    height: 160px;
+    
+position: absolute;
+left: 647px;
+top: 80px;
+transform: rotateX(25deg);
+}
+main{
+    width: 1440px;
+    height: 1798px;
+}
+.main__text{
+    margin-top: 150px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main__card{
+    width: 1117px;
+    height: 1500px;
+    display: flex;
+flex-wrap: wrap;
+margin: auto;
+
+}
+.main__logo{
+    width: 450px;
+    height: 375px;
+   
+} 
+.main__text2{
+    width: 400px;
+    height: 68px;
+
+    
+}
+footer{
+    width: 1440px;
+    height: 160px;
+    background-color: blanchedalmond;
+    position: relative;
+    
+}
+.footer__logo{
+       width: 227px;
+    height: 24px;
+position: absolute;
+top: 60px;
+left: 55px;
+}
+.footer__card{
+    display: flex;
+    gap: 50px;
+    margin-left: 700px;
+    top: 200px;
+}
+.footer__cards{
+     font-size: 20px; 
+   margin-top: 23px; 
+}
+.footer__img{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 50px;
+    left: 1200px;
+}
+.footer__imgs{
+    width: 30px;
+    height: 30px;
 }
